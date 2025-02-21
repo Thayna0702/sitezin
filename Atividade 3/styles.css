@@ -1,0 +1,115 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #2d3e50;
+    padding: 20px 0;
+    text-align: center;
+}
+
+    header .logo h1 {
+        color: #fff;
+        font-size: 2.5rem;
+    }
+
+/* Estilos da seção principal */
+.promocao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #f7f7f7;
+}
+
+    .promocao img {
+        width: 60%;
+        border-radius: 10px;
+    }
+
+.promocao-text {
+    width: 35%;
+}
+
+    .promocao-text h2 {
+        font-size: 2rem;
+        color: #2d3e50;
+    }
+
+    .promocao-text p {
+        font-size: 1.2rem;
+        margin-top: 10px;
+    }
+
+/* Galeria de Destinos */
+.destinos {
+    padding: 30px;
+    background-color: #fff;
+}
+
+    .destinos h2 {
+        text-align: center;
+        font-size: 2rem;
+        color: #333;
+        margin-bottom: 30px;
+    }
+
+.galeria {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.destino {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+}
+
+    .destino img {
+        width: 100%;
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+    }
+
+    .destino:hover img {
+        transform: scale(1.1);
+    }
+
+    .destino h3 {
+        margin-top: 10px;
+        font-size: 1.5rem;
+        color: #333;
+    }
+
+    .destino p {
+        font-size: 1rem;
+        color: #666;
+        margin-top: 10px;
+    }
+
+/* Estilo do rodapé */
+footer {
+    background-color: #2d3e50;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+    footer p {
+        font-size: 1rem;
+    }
